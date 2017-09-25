@@ -29,6 +29,13 @@ k
 
 B. Now, add all the EVEN integers between 0 and 1000 (hint: use seq())
 
+```{r}
+k <- 0
+for(i in seq(0,1000,2)){k<-k+i}
+k
+
+```
+
 C. Now, repeat A and B WITHOUT using a loop.
 
 ### Question 3:
