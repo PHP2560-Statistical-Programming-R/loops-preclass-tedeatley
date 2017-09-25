@@ -18,6 +18,15 @@ for (i in 1:50) {print(i)}
 
 A.  Using a loop, add all the integers between 0 and 1000.
 
+```{r}
+
+k <- 0
+for(i in 0:1000) { k<- k+ i}
+k
+
+
+```
+
 B. Now, add all the EVEN integers between 0 and 1000 (hint: use seq())
 
 C. Now, repeat A and B WITHOUT using a loop.
